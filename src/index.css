@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom-yellow {
+  color: #ffd700; /* replace with your desired hex code for yellow */
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+.link:hover{
+  color:green
+}
+
