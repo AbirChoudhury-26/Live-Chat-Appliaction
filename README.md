@@ -25,14 +25,20 @@ For this Live chat working Feature Like any Zoom Meeting we, have used here a Th
 
 1. Visiting the Home Page by Starting the Project having beautiful Background
 
+![Home Page](Screenshots/Home%20Page%20Live%20Chat.PNG)
 
 2. Enter the Room Number with which you want to join the Room & share Meeting Id
 
 **Note: This Meeting Id should be the same while Sgaring with your friend & Colleagues to be in Same room.**
 
+![Room Number](Screenshots/Room%20Code.PNG)
 
-3. On Room Enter ,you will come to Page landing with your Audio & Video to be Default Start
+3. On Room Enter ,you will come to Page landing with your Audio & Video to be Default Start.You can Join with Any Name & share it.
 
- 
+ ![Alt text](Screenshots/Room%20Enter.PNG)
+
  4. Once you Enter the room , yuo are Ready to Enjoy the Live Chat Platform.You can Chat,talk and even have face to face Communication.
 
+![Alt text](Screenshots/Room-View.PNG)
+
+**Note: Here At last Room Enter we can Clearly see to have conversation in A single room with one another**
