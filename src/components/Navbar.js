@@ -7,20 +7,20 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className="bg-black h-[6 rem] flex items-center justify-between px-4 py-2">
+    <div className="bg-black h-[8 rem] flex items-center justify-between px-4 py-2">
       {/* Left */}
-      <div className="bg-black h-[5rem] flex">
+      <div className="bg-black h-[3rem] flex">
         <img
           src={Logo}
           alt="Logo"
-          className="object-cover w-[15rem] h-[10rem]"
+          className="object-cover w-[12rem] h-[5rem]"
         />
       </div>
 
       {/* Right */}
       <div>
         <ul className="text-white font-bold flex items-center gap-5 mr-12">
-          <Link to="/home" className="link">
+          <Link to="/" className="link">
             Home
           </Link>
 

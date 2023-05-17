@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../images/VideoChat.png';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 // import ContactForm from './ContactForm';
 // import { Link } from 'react-router-dom';
 
@@ -35,7 +35,7 @@ const ContactUs = () => {
         <div>
           <ul className="text-white font-bold flex items-center gap-5 mr-12 ">
             <li>
-              <Link to="/home" className="link">
+              <Link to="/" className="link">
                 Home
               </Link>
             </li>

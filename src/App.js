@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/room/:roomID" element={<Room />} />
 
         <Route path="/about" element={<About />} />
@@ -22,3 +22,4 @@ function App() {
 }
 
 export default App;
+
