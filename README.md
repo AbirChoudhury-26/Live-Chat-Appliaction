@@ -5,7 +5,7 @@
 1. ReactJs
 2. NodeJs
 3. Tailwind CSS
-4. MongoDB
+4. MongoDb
 
 For this Live chat working Feature Like any Zoom Meeting we, have used here a Third Party Integration named:
 **Zego Cloud**
