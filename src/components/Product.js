@@ -43,8 +43,8 @@ const Product = () => {
         </div>
       </div>
       
-      <h1>About Us</h1>
-      <p>Welcome to our website! Here's some information about our Products of our company.</p>
+      <h1>Products Page</h1>
+      <p><b>Welcome to our website! Here's some information about our Products of our company.</b></p>
     </div>
   )
 }

@@ -35,8 +35,8 @@ const Home = () => {
                 {' '}
                 Video Chat App
               </h1>
-              <p className="text-[25px] -mt-2 text-white">
-                {' '}
+              <p className="text-[25px] mt-2 subheading">
+                {/* {' '} */}
                 A perfect <b className="custom-yellow">ONLINE CHAT</b>{' '}
                 Application
               </p>
