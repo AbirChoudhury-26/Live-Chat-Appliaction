@@ -18,14 +18,14 @@ code {
 }
 
 .custom-yellow {
-  color: #ffd700; /* replace with your desired hex code for yellow */
+  color: rgb(135, 247, 6); /* replace with your desired hex code for yellow */
 }
 
 .link{
   color: white;
   text-decoration: none;
   text-shadow: 1px 1px 1px white;
-  font-size: 20px;
+  font-size: 25px;
   
 }
 
