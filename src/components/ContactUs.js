@@ -1,22 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../images/VideoChat.png';
+import axios from 'axios';
 // import Navbar from './Navbar';
 // import ContactForm from './ContactForm';
 // import { Link } from 'react-router-dom';
 
 const ContactUs = () => {
-  const [formStatus, setFormStatus] = React.useState('Send');
-  const onSubmit = (e) => {
+  
+  const [formStatus, setFormStatus] = useState('Send');
+  const onSubmit = async (e) => {
     e.preventDefault();
     setFormStatus('Submitting...');
-    const { name, email, message } = e.target.elements;
-    let conFom = {
+    const { name, email, password } = e.target.elements;
+    const formData = {
       name: name.value,
       email: email.value,
-      message: message.value,
+      password: password.value,
     };
-    console.log(conFom);
+
+    try {
+      const response = await axios.post('/api/signup', formData);
+      console.log(response.data);
+      setFormStatus('User created successfully');
+    } catch (error) {
+      console.error(error.response.data);
+      setFormStatus('Error occurred');
+    }
   };
 
   return (
