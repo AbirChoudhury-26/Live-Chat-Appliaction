@@ -18,12 +18,12 @@ code {
 }
 
 .custom-yellow {
-  color: rgb(223, 247, 6); /* replace with your desired hex code for yellow */
+  color: rgb(8, 141, 3); /* replace with your desired hex code for yellow */
 }
 
 .link{
   color: white;
-  text-decoration: none;
+  text-decoration:underline;
   text-shadow: 1px 1px 1px white;
   font-size: 25px;
   
