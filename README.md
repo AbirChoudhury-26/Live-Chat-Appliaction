@@ -23,7 +23,7 @@ For this Live chat working Feature Like any Zoom Meeting we, have used here a Th
 
 # Images of the above process when executed
 
-1. Visiting the **Home Page**** by Starting the Project having beautiful Background
+1. Visiting the **Home Page** by Starting the Project having beautiful Background
 
 ![Home Page](Screenshots/Home%20Page%20Live%20Chat.PNG)
 
@@ -53,4 +53,5 @@ For this Live chat working Feature Like any Zoom Meeting we, have used here a Th
 
 ### Note: I am Updating the Contact form with Real time Data of User to be inserted in Database using `MONGODB`
 
-* More Features will be added.
+* More Features will be added. More Features like Contact Details and Databse value can be saved.
+Also ,It can be more Intercative ,like creating Recording Feature in etc. 
