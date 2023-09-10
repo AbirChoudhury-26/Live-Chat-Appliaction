@@ -26,7 +26,7 @@ code {
   text-decoration:underline;
   text-shadow: 1px 1px 1px white;
   font-size: 25px;
-  
+  font-weight: bold;
 }
 
 .link:hover{
