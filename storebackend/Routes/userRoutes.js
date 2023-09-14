@@ -26,7 +26,7 @@ const app=express();
       res.status(201).json({ message: 'User created successfully' });
     } catch (error) {
       console.error('Signup error:', error);
-      res.status(500).json({ message: 'Internal server error' });
+      res.status(500).json({ message: error.message});
     }
   });
   
@@ -53,7 +53,7 @@ const app=express();
       res.status(200).json({ message: 'Signin successful', user });
     } catch (error) {
       console.error('Signin error:', error);
-      res.status(500).json({ message: 'Internal server error' });
+      res.status(500).json({ message: error.message });
     }
   });
   
