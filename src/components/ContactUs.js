@@ -21,11 +21,11 @@ const ContactUs = () => {
 
     try {
       const response = await axios.post('/api/signup', formData);
-      console.log(response.data);
+      // console.log(response.data);
       setFormStatus('User created successfully');
     } catch (error) {
       console.error(error.response.data);
-      setFormStatus('Error occurred');
+      setFormStatus(error.message);
     }
   };
 
