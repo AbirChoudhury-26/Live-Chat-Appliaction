@@ -24,7 +24,7 @@ const Room = () => {
 
 
   return (
-    <div ref={meeting} style={{ width:"200vw", height:"200vh"}}>
+    <div ref={meeting} style={{ width:"300vw", height:"300vh"}}>
       <h1>Room Page</h1>
     </div>
   )
