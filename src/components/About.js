@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../images/VideoChat.png';
 const About = () => {
   return (
     <div>
-
-<div className="bg-black h-[6rem] flex items-center justify-between px-4 py-2">
+      <div className="bg-black h-[6rem] flex items-center justify-between px-4 py-2">
         {/* Left  */}
         <div className="bg-black h-[4rem] flex">
           <img
@@ -41,11 +40,41 @@ const About = () => {
           </ul>
         </div>
       </div>
+      
+      
+      <div class="about-us-container">
+        <div class="about-us-header">
+          <h2>About Us</h2>
+        </div>
+        <div class="about-us-content">
+          <p>
+            Welcome to our Chat App, where communication meets simplicity. Our
+            mission is to provide a seamless and enjoyable chat experience for
+            users around the globe.
+          </p>
+          <p>
+            At Chat App, we believe in the power of connecting people. Whether
+            you're looking to chat with friends, collaborate with colleagues, or
+            seek support, our platform is designed to meet your communication
+            needs.
+          </p>
+          <p>Key Features:</p>
+          <ul>
+            <li>Real-time messaging</li>
+            <li>Intuitive user interface</li>
+            <li>Secure and private conversations</li>
+            <li>Customizable settings</li>
+            <li>24/7 customer support</li>
+          </ul>
+          <p>
+            Feel free to explore and enjoy the world of seamless communication
+            with Chat App!
+          </p>
+        </div>
+      </div>
 
-      <h1>About Us</h1>
-      <p>Welcome to our website! Here's some information about our company.</p>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
