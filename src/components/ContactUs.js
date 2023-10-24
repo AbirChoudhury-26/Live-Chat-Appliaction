@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../images/VideoChat.png';
 import axios from 'axios';
-import { toast } from 'react-toastify';
+//import { toast } from 'react-toastify';
 // import Navbar from './Navbar';
 // import ContactForm from './ContactForm';
 // import { Link } from 'react-router-dom';
@@ -24,7 +24,7 @@ const ContactUs = () => {
       const response = await axios.post('/api/signup', formData);
       // console.log(response.data);
       setFormStatus('User created successfully');
-      toast.success("Created Successfullt");
+      //toast.success("Created Successfullt");
     } catch (error) {
       console.error(error.response.data);
       setFormStatus(error.message);
