@@ -41,38 +41,118 @@ const About = () => {
         </div>
       </div>
 
-      <div class="about-us-background">
-        <div class="about-us-container">
-          <div class="about-us-header">
-            <h2>About Us</h2>
-          </div>
-          <div class="about-us-content">
-            <p>
-              Welcome to our Chat App, where communication meets simplicity. Our
-              mission is to provide a seamless and enjoyable chat experience for
-              users around the globe.
-            </p>
-            <p>
-              At Chat App, we believe in the power of connecting people. Whether
-              you're looking to chat with friends, collaborate with colleagues,
-              or seek support, our platform is designed to meet your
-              communication needs.
-            </p>
-            <p>Key Features:</p>
+      <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+          <h1 class="logo me-auto">
+            <a href="index.html">Arsha</a>
+          </h1>
+
+          <nav id="navbar" class="navbar">
             <ul>
-              <li>Real-time messaging</li>
-              <li>Intuitive user interface</li>
-              <li>Secure and private conversations</li>
-              <li>Customizable settings</li>
-              <li>24/7 customer support</li>
+              <li>
+                <a class="nav-link scrollto active" href="#hero">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="#about">
+                  About
+                </a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="#services">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a class="nav-link   scrollto" href="#portfolio">
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="#team">
+                  Team
+                </a>
+              </li>
+              <li class="dropdown">
+                <a href="#">
+                  <span>Drop Down</span> <i class="bi bi-chevron-down"></i>
+                </a>
+                <ul>
+                  <li>
+                    <a href="#">Drop Down 1</a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">
+                      <span>Deep Drop Down</span>{' '}
+                      <i class="bi bi-chevron-right"></i>
+                    </a>
+                    <ul>
+                      <li>
+                        <a href="#">Deep Drop Down 1</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Drop Down 2</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Drop Down 3</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Drop Down 4</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Drop Down 5</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Drop Down 2</a>
+                  </li>
+                  <li>
+                    <a href="#">Drop Down 3</a>
+                  </li>
+                  <li>
+                    <a href="#">Drop Down 4</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="#contact">
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a class="getstarted scrollto" href="#about">
+                  Get Started
+                </a>
+              </li>
             </ul>
-            <p>
-              Feel free to explore and enjoy the world of seamless communication
-              with Chat App!
-            </p>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+        </div>
+      </header>
+
+      <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Better Solutions For Your Business</h1>
+          <h2>We are team of talented designers making websites with Bootstrap</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          
+        </div>
       </div>
+    </div>
+
+  </section>
+
+
     </div>
   );
 };
