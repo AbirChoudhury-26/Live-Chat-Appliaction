@@ -346,7 +346,7 @@ const About = () => {
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
+              <h4><a href="hello">Lorem Ipsum</a></h4>
               <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
@@ -354,7 +354,7 @@ const About = () => {
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspici</a></h4>
+              <h4><a href="hello">Sed ut perspici</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
             </div>
           </div>
@@ -362,7 +362,7 @@ const About = () => {
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
+              <h4><a href="hello">Magni Dolores</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
@@ -370,7 +370,7 @@ const About = () => {
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
+              <h4><a href="hello">Nemo Enim</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
           </div>
@@ -526,10 +526,10 @@ const About = () => {
                 <span>Chief Executive Officer</span>
                 <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="hello"><i class="ri-twitter-fill"></i></a>
+                  <a href="hello"><i class="ri-facebook-fill"></i></a>
+                  <a href="hello"><i class="ri-instagram-fill"></i></a>
+                  <a href="hello"> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -543,10 +543,10 @@ const About = () => {
                 <span>Product Manager</span>
                 <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="hello"><i class="ri-twitter-fill"></i></a>
+                  <a href="hello"><i class="ri-facebook-fill"></i></a>
+                  <a href="hello"><i class="ri-instagram-fill"></i></a>
+                  <a href="hello"> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -560,10 +560,10 @@ const About = () => {
                 <span>CTO</span>
                 <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="hello"><i class="ri-twitter-fill"></i></a>
+                  <a href="hello"><i class="ri-facebook-fill"></i></a>
+                  <a href="hello"><i class="ri-instagram-fill"></i></a>
+                  <a href="hello"> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -577,10 +577,10 @@ const About = () => {
                 <span>Accountant</span>
                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="hello"><i class="ri-twitter-fill"></i></a>
+                  <a href="hello"><i class="ri-facebook-fill"></i></a>
+                  <a href="hello"><i class="ri-instagram-fill"></i></a>
+                  <a href="hello"> <i class="ri-linkedin-box-fill"></i> </a>
                 </div>
               </div>
             </div>
@@ -627,7 +627,7 @@ const About = () => {
                 <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
                 <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
               </ul>
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="hello" class="buy-btn">Get Started</a>
             </div>
           </div>
 
@@ -650,7 +650,7 @@ const About = () => {
 
       </div>
     </section>
-    
+
       </main>
     </div>
   );
