@@ -1393,18 +1393,18 @@ const About = () => {
           </div>
         </div>
 
-        <div class="footer-top">
+    <div class="footer-top">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Arsha</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              A108 Adam Street <br/>
+              New York, NY 535022<br/>
+              United States <br/>
+              <strong>Phone:</strong> +1 5589 55488 55<br/>
+              <strong>Email:</strong> info@example.com<br/>
             </p>
           </div> 
 
@@ -1456,7 +1456,7 @@ const About = () => {
       </div>
     </div>
 
-      </footer>
+    </footer>
 
       <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
