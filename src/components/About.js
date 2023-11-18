@@ -75,44 +75,44 @@ const About = () => {
                 </a>
               </li>
               <li class="dropdown">
-                <a href="#">
+                <a href="hello.com">
                   <span>Drop Down</span> <i class="bi bi-chevron-down"></i>
                 </a>
                 <ul>
                   <li>
-                    <a href="#">Drop Down 1</a>
+                    <a href="hello.com">Drop Down 1</a>
                   </li>
                   <li class="dropdown">
-                    <a href="#">
+                    <a href="hello.com">
                       <span>Deep Drop Down</span>{' '}
                       <i class="bi bi-chevron-right"></i>
                     </a>
                     <ul>
                       <li>
-                        <a href="#">Deep Drop Down 1</a>
+                        <a href="hello.com">Deep Drop Down 1</a>
                       </li>
                       <li>
-                        <a href="#">Deep Drop Down 2</a>
+                        <a href="hello.com">Deep Drop Down 2</a>
                       </li>
                       <li>
-                        <a href="#">Deep Drop Down 3</a>
+                        <a href="hello.com">Deep Drop Down 3</a>
                       </li>
                       <li>
-                        <a href="#">Deep Drop Down 4</a>
+                        <a href="hello.com">Deep Drop Down 4</a>
                       </li>
                       <li>
-                        <a href="#">Deep Drop Down 5</a>
+                        <a href="hello.com">Deep Drop Down 5</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="#">Drop Down 2</a>
+                    <a href="hello.com">Drop Down 2</a>
                   </li>
                   <li>
-                    <a href="#">Drop Down 3</a>
+                    <a href="hello.com">Drop Down 3</a>
                   </li>
                   <li>
-                    <a href="#">Drop Down 4</a>
+                    <a href="hello.com">Drop Down 4</a>
                   </li>
                 </ul>
               </li>
@@ -531,7 +531,7 @@ const About = () => {
                 </p>
               </div>
               <div class="col-lg-3 cta-btn-container text-center">
-                <a class="cta-btn align-middle" href="#">
+                <a class="cta-btn align-middle" href="hello.com">
                   Call To Action
                 </a>
               </div>
@@ -1040,7 +1040,7 @@ const About = () => {
                       <span>Massa ultricies mi quis hendrerit</span>
                     </li>
                   </ul>
-                  <a href="#" class="buy-btn">
+                  <a href="hello.com" class="buy-btn">
                     Get Started
                   </a>
                 </div>
@@ -1108,7 +1108,7 @@ const About = () => {
                       hendrerit
                     </li>
                   </ul>
-                  <a href="#" class="buy-btn">
+                  <a href="hello.com" class="buy-btn">
                     Get Started
                   </a>
                 </div>
@@ -1411,22 +1411,22 @@ const About = () => {
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Privacy policy</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hello.com">Graphic Design</a></li>
             </ul>
           </div>
 
@@ -1434,11 +1434,11 @@ const About = () => {
             <h4>Our Social Networks</h4>
             <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="hello.com" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="hello.com" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="hello.com" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="hello.com" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="hello.com" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
 
@@ -1459,7 +1459,7 @@ const About = () => {
     </footer>
 
       <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="hello.com" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 
   <script src="assets/vendor/aos/aos.js"></script>
