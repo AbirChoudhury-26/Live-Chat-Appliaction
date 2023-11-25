@@ -131,89 +131,7 @@ const About = () => {
           </div>
         </header>
 
-        <section id="hero" class="d-flex align-items-center">
-          <div class="container">
-            <div class="row">
-              <div
-                class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <h1>Better Solutions For Your Business</h1>
-                <h2>
-                  We are team of talented designers making websites with
-                  Bootstrap
-                </h2>
-                <div class="d-flex justify-content-center justify-content-lg-start">
-                  <a href="#about" class="btn-get-started scrollto">
-                    Get Started
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-                    class="glightbox btn-watch-video"
-                  >
-                    <i class="bi bi-play-circle"></i>
-                    <span>Watch Video</span>
-                  </a>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 order-1 order-lg-2 hero-img"
-                data-aos="zoom-in"
-                data-aos-delay="200"
-              >
-                <img
-                  src="assets/img/hero-img.png"
-                  class="img-fluid animated"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="hero" class="d-flex align-items-center">
-          <div class="container">
-            <div class="row">
-              <div
-                class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <h1>Better Solutions For Your Business</h1>
-                <h2>
-                  We are team of talented designers making websites with
-                  Bootstrap
-                </h2>
-                <div class="d-flex justify-content-center justify-content-lg-start">
-                  <a href="#about" class="btn-get-started scrollto">
-                    Get Started
-                  </a>
-                  <a
-                    href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-                    class="glightbox btn-watch-video"
-                  >
-                    <i class="bi bi-play-circle"></i>
-                    <span>Watch Video</span>
-                  </a>
-                </div>
-              </div>
-              <div
-                class="col-lg-6 order-1 order-lg-2 hero-img"
-                data-aos="zoom-in"
-                data-aos-delay="200"
-              >
-                <img
-                  src="assets/img/hero-img.png"
-                  class="img-fluid animated"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-
+       
       <section id="hero" class="d-flex align-items-center">
         <div class="container">
           <div class="row">
@@ -254,143 +172,68 @@ const About = () => {
         </div>
       </section>
 
-      <section id="hero" class="d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <h1>Better Solutions For Your Business</h1>
-              <h2>
-                We are team of talented designers making websites with Bootstrap
-              </h2>
-              <div class="d-flex justify-content-center justify-content-lg-start">
-                <a href="#about" class="btn-get-started scrollto">
-                  Get Started
-                </a>
-                <a
-                  href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-                  class="glightbox btn-watch-video"
-                >
-                  <i class="bi bi-play-circle"></i>
-                  <span>Watch Video</span>
-                </a>
+      <main id="main">
+           <section id="clients" class="clients section-bg">
+             <div class="container">
+               <div class="row" data-aos="zoom-in">
+                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                   <img
+                    src="assets/img/clients/client-1.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img
+                    src="assets/img/clients/client-2.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img
+                    src="assets/img/clients/client-3.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img
+                    src="assets/img/clients/client-4.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img
+                    src="assets/img/clients/client-5.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <img
+                    src="assets/img/clients/client-6.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
-            <div
-              class="col-lg-6 order-1 order-lg-2 hero-img"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <img
-                src="assets/img/hero-img.png"
-                class="img-fluid animated"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+          </section>
+      </main>
     </div>
 
-    //     <section id="hero" class="d-flex align-items-center">
-    //       <div class="container">
-    //         <div class="row">
-    //           <div
-    //             class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-    //             data-aos="fade-up"
-    //             data-aos-delay="200"
-    //           >
-    //             <h1>Better Solutions For Your Business</h1>
-    //             <h2>
-    //               We are team of talented designers making websites with Bootstrap
-    //             </h2>
-    //             <div class="d-flex justify-content-center justify-content-lg-start">
-    //               <a href="#about" class="btn-get-started scrollto">
-    //                 Get Started
-    //               </a>
-    //               <a
-    //                 href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-    //                 class="glightbox btn-watch-video"
-    //               >
-    //                 <i class="bi bi-play-circle"></i>
-    //                 <span>Watch Video</span>
-    //               </a>
-    //             </div>
-    //           </div>
-    //           <div
-    //             class="col-lg-6 order-1 order-lg-2 hero-img"
-    //             data-aos="zoom-in"
-    //             data-aos-delay="200"
-    //           >
-    //             <img
-    //               src="assets/img/hero-img.png"
-    //               class="img-fluid animated"
-    //               alt=""
-    //             />
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </section>
 
-    //     <main id="main">
-    //       <section id="clients" class="clients section-bg">
-    //         <div class="container">
-    //           <div class="row" data-aos="zoom-in">
-    //             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-    //               <img
-    //                 src="assets/img/clients/client-1.png"
-    //                 class="img-fluid"
-    //                 alt=""
-    //               />
-    //             </div>
 
-    //             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-    //               <img
-    //                 src="assets/img/clients/client-2.png"
-    //                 class="img-fluid"
-    //                 alt=""
-    //               />
-    //             </div>
+       
 
-    //             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-    //               <img
-    //                 src="assets/img/clients/client-3.png"
-    //                 class="img-fluid"
-    //                 alt=""
-    //               />
-    //             </div>
-
-    //             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-    //               <img
-    //                 src="assets/img/clients/client-4.png"
-    //                 class="img-fluid"
-    //                 alt=""
-    //               />
-    //             </div>
-
-    //             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-    //               <img
-    //                 src="assets/img/clients/client-5.png"
-    //                 class="img-fluid"
-    //                 alt=""
-    //               />
-    //             </div>
-
-    //             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-    //               <img
-    //                 src="assets/img/clients/client-6.png"
-    //                 class="img-fluid"
-    //                 alt=""
-    //               />
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </section>
-
-    //       <section id="why-us" class="why-us section-bg">
+    {/* //       <section id="why-us" class="why-us section-bg">
     //         <div class="container-fluid" data-aos="fade-up">
     //           <div class="row">
     //             <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
@@ -409,16 +252,16 @@ const About = () => {
     //               <div class="accordion-list">
     //                 <ul>
     //                   <li>
-    //                     <a
-    //                       data-bs-toggle="collapse"
+    //                     <a */}
+    {/* //                       data-bs-toggle="collapse"
     //                       class="collapse"
     //                       data-bs-target="#accordion-list-1"
     //                     >
     //                       <span>01</span> Non consectetur a erat nam at lectus
     //                       urna duis? <i class="bx bx-chevron-down icon-show"></i>
     //                       <i class="bx bx-chevron-up icon-close"></i>
-    //                     </a>
-    //                     <div
+    //                     </a> 
+    //                    <div
     //                       id="accordion-list-1"
     //                       class="collapse show"
     //                       data-bs-parent=".accordion-list"
